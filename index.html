@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ – Skole / IT</title>
+  <style>
+    :root {
+      --bg: #0f1220;
+      --card: #161a2e;
+      --muted: #8ea0b7;
+      --text: #e8eef6;
+      --accent: #6ea8fe;
+      --accent-2: #7ae3c3;
+      --border: #232847;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; }
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: linear-gradient(180deg, rgba(15,18,32,0.95) 0%, rgba(15,18,32,0.85) 100%);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 20px; }
+    h1 { margin: 0 0 8px; font-size: 28px; letter-spacing: .2px; }
+    .sub { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+    .controls {
+      display: grid; grid-template-columns: 1fr 220px 160px; gap: 12px; align-items: center;
+    }
+    input[type="search"], select {
+      width: 100%; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); outline: none; font-size: 14px;
+    }
+    input[type="search"]::placeholder { color: #94a3b8; }
+    .count { color: var(--muted); font-size: 13px; text-align: right; }
+    main .wrap { padding-top: 16px; }
+    .category {
+      margin: 22px 0 10px; padding-top: 10px; border-top: 1px dashed var(--border);
+    }
+    .category h2 {
+      font-size: 18px; margin: 0 0 8px; color: var(--accent-2); letter-spacing: .2px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .pill { font-size: 12px; color: var(--bg); background: var(--accent-2); padding: 2px 8px; border-radius: 999px; }
+    .faq {
+      background: linear-gradient(180deg, rgba(22,26,46,1) 0%, rgba(22,26,46,0.9) 100%);
+      border: 1px solid var(--border);
+      border-radius: 14px; padding: 0; margin: 10px 0; overflow: hidden;
+    }
+    details { border-radius: 14px; }
+    summary {
+      list-style: none; cursor: pointer; padding: 14px 16px; position: relative;
+      display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center;
+    }
+    summary::-webkit-details-marker { display: none; }
+    .q {
+      font-weight: 600; font-size: 15px; line-height: 1.4;
+    }
+    .link {
+      opacity: 0; transition: opacity .2s ease; font-size: 12px;
+      color: var(--muted); text-decoration: none; border: 1px dashed var(--border); padding: 4px 8px; border-radius: 999px;
+    }
+    details:hover .link { opacity: 1; }
+    details[open] .link { opacity: 1; }
+    .a { padding: 0 16px 16px 16px; color: #cbd5e1; line-height: 1.6; white-space: pre-wrap; }
+    .no-results { color: var(--muted); padding: 24px 0; text-align: center; }
+    footer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); margin-top: 30px; }
+    @media (max-width: 780px) {
+      .controls { grid-template-columns: 1fr; }
+      .count { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>FAQ</h1>
+      <p class="sub">Ofte stilte spørsmål for skole / IT. Bruk søk eller filtrer på kategori.</p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Søk i spørsmål og svar…" aria-label="Søk i FAQ" />
+        <select id="category" aria-label="Velg kategori">
+          <option value="__ALL__">Alle kategorier</option>
+        </select>
+        <div class="count"><span id="shown">0</span>/<span id="total">0</span> vist</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap" id="content"></div>
+  </main>
+
+  <footer>
+    <div class="wrap">Generert automatisk fra <code>data.json</code>. For å oppdatere: erstatt filen og last siden på nytt.</div>
+  </footer>
+
+<script>
+(async function(){
+  const elContent = document.getElementById('content');
+  const elSearch  = document.getElementById('search');
+  const elCat     = document.getElementById('category');
+  const elShown   = document.getElementById('shown');
+  const elTotal   = document.getElementById('total');
+
+  // Fetch data
+  let data = [];
+  try {
+    const res = await fetch('data.json');
+    data = await res.json();
+  } catch (e) {
+    elContent.innerHTML = '<p class="no-results">Kunne ikke laste data.json</p>';
+    return;
+  }
+
+  // Normalize data
+  data = data.map((d, i) => ({
+    id: i + 1,
+    sporsmal: String(d.sporsmal || '').trim(),
+    svar: String(d.svar || '').trim(),
+    kategori: (d.kategori && String(d.kategori).trim()) || 'Uten kategori'
+  })).filter(d => d.sporsmal && d.svar);
+
+  elTotal.textContent = data.length;
+
+  // Build category options
+  const cats = Array.from(new Set(data.map(d => d.kategori))).sort((a,b)=>a.localeCompare(b, 'no'));
+  cats.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    elCat.appendChild(opt);
+  });
+
+  // Slug for anchors
+  const slug = (s) => s.toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
+
+  // Render
+  function render() {
+    const q = elSearch.value.trim().toLowerCase();
+    const cat = elCat.value;
+    const filtered = data.filter(d => {
+      const inCat = (cat === '__ALL__') || (d.kategori === cat);
+      const inText = !q || d.sporsmal.toLowerCase().includes(q) || d.svar.toLowerCase().includes(q);
+      return inCat && inText;
+    });
+
+    elShown.textContent = filtered.length;
+
+    if (filtered.length === 0) {
+      elContent.innerHTML = '<p class="no-results">Ingen treff. Prøv et annet søk eller kategori.</p>';
+      return;
+    }
+
+    // Group by category
+    const byCat = {};
+    for (const d of filtered) {
+      (byCat[d.kategori] ||= []).push(d);
+    }
+
+    // Build HTML
+    const frag = document.createDocumentFragment();
+    Object.keys(byCat).sort((a,b)=>a.localeCompare(b, 'no')).forEach(catName => {
+      const catWrap = document.createElement('section');
+      catWrap.className = 'category';
+      const h = document.createElement('h2');
+      const count = byCat[catName].length;
+      h.innerHTML = catName + ' <span class="pill">'+count+'</span>';
+      catWrap.appendChild(h);
+
+      byCat[catName].forEach(d => {
+        const anchor = slug(d.sporsmal) || ('q-' + d.id);
+        const details = document.createElement('details');
+        details.className = 'faq';
+        details.id = anchor;
+
+        const summary = document.createElement('summary');
+        const qEl = document.createElement('div');
+        qEl.className = 'q'; qEl.textContent = d.sporsmal;
+        const link = document.createElement('a');
+        link.className = 'link'; link.href = '#' + anchor; link.setAttribute('aria-label','Permalenke');
+        link.textContent = '#';
+
+        summary.appendChild(qEl);
+        summary.appendChild(link);
+
+        const ans = document.createElement('div');
+        ans.className = 'a'; ans.textContent = d.svar;
+
+        details.appendChild(summary);
+        details.appendChild(ans);
+        catWrap.appendChild(details);
+      });
+
+      frag.appendChild(catWrap);
+    });
+
+    elContent.innerHTML = '';
+    elContent.appendChild(frag);
+  }
+
+  elSearch.addEventListener('input', render);
+  elCat.addEventListener('change', render);
+
+  // Open from hash if present
+  window.addEventListener('hashchange', () => {
+    const id = location.hash.replace('#','');
+    if (!id) return;
+    const el = document.getElementById(id);
+    if (el && el.tagName.toLowerCase()==='details') el.open = true;
+  });
+
+  render();
+  if (location.hash) {
+    const id = location.hash.replace('#','');
+    const el = document.getElementById(id);
+    if (el) el.open = true;
+  }
+})();
+</script>
+</body>
+</html>

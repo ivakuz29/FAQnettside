@@ -1,0 +1,412 @@
+[
+  {
+    "sporsmal": "Hvem er rådgiveren på yrkesfag?",
+    "svar": "Frode Sæthre",
+    "kategori": "Lærere"
+  },
+  {
+    "sporsmal": "Hva gjør jeg hvis et program ikke fungerer?",
+    "svar": "Start programmet på nytt. Hvis det fortsatt ikke fungerer, kontakt IT-ansvarlig eller læreren.",
+    "kategori": "It help?"
+  },
+  {
+    "sporsmal": "Hvor er printeren på skolen?",
+    "svar": "Printeren er ved siden av biblioteket i 4 etasje. Det er også endå en i 5 esatsje men den er teit.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvem er avdelingsleder på yrkesfag?",
+    "svar": "Linda Therese Myklebust",
+    "kategori": "Lærere"
+  },
+  {
+    "sporsmal": "Hvem kan jeg snakke med hvis jeg trenger hjelp med noe skolerelatert?",
+    "svar": "Snakk med geiten Frode, han er rådgiver for yrkesfag og har kontor i 4 etg ved siden av IKT kontoret.",
+    "kategori": "skole"
+  },
+  {
+    "sporsmal": "Hva trenger jeg å vite til starten av året?",
+    "svar": " Husk å sjekke Visma for å se hvor du skal være, og Teams for beskjeder fra lærerne. Lærere kan ikke legge inn alt i Visma, så sjekk også Itslearning.",
+    "kategori": "skole start"
+  },
+  {
+    "sporsmal": "Hvordan blir jeg med i IM discorden?",
+    "svar": "Du kan bli med i discorden med å skrive discord.gg/ZZVWncyyxt i nettleseren din.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "hvor er klasserommet?",
+    "svar": "her inne",
+    "kategori": "skole"
+  },
+  {
+    "sporsmal": "Hvor ligger IT-avdelingen?",
+    "svar": "Den ligger i 4. etasje, ved lærerkontorene til høyre.",
+    "kategori": "IT?"
+  },
+  {
+    "sporsmal": "Hvordan blir jeg med i IM-linjen Discord serveren?",
+    "svar": "Bli med i den med linken \"discord.gg/ZZVWncyyxt\" :D",
+    "kategori": "Skolens sosiale medier"
+  },
+  {
+    "sporsmal": "Hvem skal du gå til for råd?",
+    "svar": "Vist du trenger gode råd så må du gå til Frode! Han er veldig smart.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvor kan du finne programvarer på nett?",
+    "svar": "Du kan finne de fleste programvarer som du trenger på skoleportalen",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Når får vi bruke kamera/utstyr fra medielageret?",
+    "svar": "Du kan låne utstyr etter avtale med faglærer og media lærlingene på skolen. Husk å levere tilbake i tide og i samme stand.",
+    "kategori": "lån av media utsyr"
+  },
+  {
+    "sporsmal": "Hvordan endrer jeg passordet mitt hvis jeg glemmer det?",
+    "svar": "Du kan gå inn på https://passord.vlfk.no/ForgottenPassword. Der må du skrive inn brukernavnet ditt og telefonnummeret ditt for å motta en engangskode på SMS, slik at du kan endre passordet.",
+    "kategori": "IT?"
+  },
+  {
+    "sporsmal": "Hva gjør jeg hvis jeg trenger hjelp med noe?",
+    "svar": " Du kan enten spørre en lærer eller gå til 4. etasje til IT-avdelingen",
+    "kategori": "hjelp"
+  },
+  {
+    "sporsmal": "Hvor ser jeg på julestreamen til IM-linjen?",
+    "svar": "Inne på Twitch kanalen deres (https://www.twitch.tv/im_amalieskram) ",
+    "kategori": "Skolens sosiale medier"
+  },
+  {
+    "sporsmal": "Kan jeg installere egne programmer på skolens PC?",
+    "svar": "Ja, du kan installere egne programmer, men enkelte programmer kan være forbudt under eksamen.",
+    "kategori": "IT?"
+  },
+  {
+    "sporsmal": "Hva er det beste stedet å gå for å lære koding eller få hjelp med koding?",
+    "svar": "Du kan bruke W3Schools, søke på Google, eller spørre ChatGPT.",
+    "kategori": "code hjelp"
+  },
+  {
+    "sporsmal": "Hvor skal du melde fravær?",
+    "svar": "På visma.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hva skjer hvis jeg glemmer å levere en oppgave?",
+    "svar": "Snakk med læreren så fort som mulig  ofte kan du levere litt seint, men trekk i karakter kan skje. Hvis du tror du ikke rekker en innlevering bør du snakke med lærer for å spørre om en utsettelse før fristen er ute.",
+    "kategori": "oppgave frister"
+  },
+  {
+    "sporsmal": "Hvilke bøker kan jeg låne fra biblioteket?",
+    "svar": "Du kan låne alle bøkene som er tilgjengelige, så lenge du har signert låneavtalen og har med lånekortet (PocketID).",
+    "kategori": "Biblioteket lån?"
+  },
+  {
+    "sporsmal": "1. Hvordan fungerer timeplanen på Amalie skramm?",
+    "svar": "Selve timeplanen ligger på Visma inSchool som du kan finne på skoleportalen og den er delt i tre typer Uke A, B og C-uke. Som oftest veksler det mellom A og B uke hver uke, men av og til endrer det seg til C-uke, så det er viktig å passe på hvilken uke det er på Visma.",
+    "kategori": "App hjelp"
+  },
+  {
+    "sporsmal": "Hvilke programmer trenger jeg på maskinen?",
+    "svar": "Som IM-elev bruker du ofte Adobe Creative Cloud (Photoshop, Premiere Pro, Illustrator), samt utviklingsverktøy som VS Code. Skolen hjelper deg med installasjon.",
+    "kategori": "skole start"
+  },
+  {
+    "sporsmal": "Hvor er toalettet?",
+    "svar": "Det er jo toaletter overalt, men på IT siden er det ved siden av 351 klasserommet til IM i 3. etasje.",
+    "kategori": "\"Hvor er...\""
+  },
+  {
+    "sporsmal": "Hvordan fungerer den nye fraværsgrensen?",
+    "svar": "Du kan ha opptil 10?% fravær per fag. Fravær innenfor disse 10?% kan dekkes med egenmelding ved sykdom. Fravær over 10?% må dokumenteres med legeerklæring.",
+    "kategori": "Fraværsgrensen?"
+  },
+  {
+    "sporsmal": "1)\tHvilket programmeringsspråk lærer man i VG1?",
+    "svar": ": På VG1 lærer man HTML, CSS og JavaScript.",
+    "kategori": "programmerings del vg1"
+  },
+  {
+    "sporsmal": "Når starter timene? ",
+    "svar": "Som vanligst 8.15, på tirsdager  9.50. Av og til er det andre tidspunkter, da får man beskjed om det på forhånd + endring i Visma",
+    "kategori": "Tid"
+  },
+  {
+    "sporsmal": "Hvor er printeren på Amalie Skram Videregående Skole?",
+    "svar": "Den er ved siden av biblioteket i 4. etasje. Det er også en annen en i 5. etasje, men den er ikke like kul ??",
+    "kategori": "\"Hvor er...\""
+  },
+  {
+    "sporsmal": "hva gjør jeg hvis jeg mister passordet mitt til feide?",
+    "svar": "trykk \"jeg har mistet passordet mitt\" i innloggings menyen ",
+    "kategori": "Skole"
+  },
+  {
+    "sporsmal": "Bruker man Teams eller ItsLearning? ",
+    "svar": "Man bruker egentlig begge, noen lærere foretrekker teams, andre  itsLearning. Det er best å være logget inn i begge to og sjekke de evnlig for å være på den sikre siden.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvordan leverer jeg en oppgave i Teams?",
+    "svar": "Åpne oppgaven, last opp fila og trykk på Lever.oppe I høyre hjørnet",
+    "kategori": "Teams"
+  },
+  {
+    "sporsmal": "2)\tEr det mye lekser?",
+    "svar": "Nei, det er ikke mye lekser, så lenge du gjør arbeidet ditt på skolen.",
+    "kategori": "skole"
+  },
+  {
+    "sporsmal": "Hva skal jeg gjøre om jeg trenger hjelp?",
+    "svar": "Det er to ting du kan gjøre om du trenger hjelp og tre hvis du trenger hjelp med utstyr. Den første tingen du kan gjøre er å rett og slett spørre læreren om hjelp. Den andre tingen du kan gjøre er å gå inn på skoleportalen.no. Den siste tingen som du kan gjøre er å spørre IT-avdelingen om hjelp om du har problemer med utstyr. ",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvordan får jeg tilgang til Adobe-programmene?",
+    "svar": " Logg inn med skolens e-post i Adobe Creative Cloud. Husk å velge Enterprise Account hvis du får spørsmål.",
+    "kategori": "skole start"
+  },
+  {
+    "sporsmal": "Hvordan får jeg tilgang til Itslearning, Visma InSchool og skolens digitale systemer?",
+    "svar": " Du kan enten gå inn på skoleportalen og søke opp Itslearingen eller Visma og det vil sende deg til innloggings siden hvor du må logge inn med veide og velge vestlig fylkeskommune. Du kan også laste ned mobilappene.",
+    "kategori": "app hjelp"
+  },
+  {
+    "sporsmal": "Hvor får jeg hjelp med vanlige skole tjenester f.eks. utskrift, læreplan osv.",
+    "svar": "Sjekk Skoleportalen.no og/eller Spør lærer/ansatt",
+    "kategori": "Skole tjenester"
+  },
+  {
+    "sporsmal": "4)\tMå man kunne programmering fra før?",
+    "svar": "Nei, du lærer alt fra start, så det går fint om du er helt nybegynner.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "5)\tTrenger jeg egen PC?",
+    "svar": "ja du trenger å kjøpe pc selv.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvordan printer jeg på skolen?",
+    "svar": "Gå til fjerde etasje ved rådgivaren, der du finner en printar. Bruk skolebruker til å logge inn og sende dokumentet ditt til dem, den bør printe arket ditt automatisk. Helst ikke bruk printaren på femte etasjen, den er dårlig. ",
+    "kategori": "printer"
+  },
+  {
+    "sporsmal": "Hvor er IT-avdelingen?",
+    "svar": "De er i 4. etasje ved siden av printeren. Gå opp til fjerde etasje, forbi biblioteket, og så til venstre.",
+    "kategori": "\"Hvor er...\""
+  },
+  {
+    "sporsmal": "Hvorfor er det aldri tørkepapir på toalettet?",
+    "svar": "Fylket har bestemt at videregående skoler i Vestland ikke skal bruke tørkepapir og istedenfor bruke lufttørkler. Nei, elverådet kan ikke gjøre noe med det.",
+    "kategori": "toalett"
+  },
+  {
+    "sporsmal": "Får ikke logge meg inn på Visma/itsLearning.",
+    "svar": "Sjekk at du er på riktig nettside. Som oftest kan det være greit å finne visma og itslearning fra Amalie Skram sin side (https://www.amalieskram.vgs.no).",
+    "kategori": "Tekniske problemer"
+  },
+  {
+    "sporsmal": "7)\tFår man lov til å game på skolen?",
+    "svar": "Nei, PC-en skal brukes til skolearbeid, men noen lærere kan ha små pauser hvor du får lov til å game litt eller i friminutter.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": " Jeg ser ikke filene mine i OneDrive, hva gjør jeg?",
+    "svar": " Sjekk at du er logget inn med skolebrukeren. Oppdatert siden, hvis det er forstatt ikke der så kan de hende at du savet de på en anna brukar. ",
+    "kategori": "OneDrive"
+  },
+  {
+    "sporsmal": "Hvor ligger lille Aud?",
+    "svar": "Lille auditoriet kan man finne rett ved siden av biblioteket på 4. etasje.",
+    "kategori": "Plassering"
+  },
+  {
+    "sporsmal": "Tekniske utfordringer? ",
+    "svar": "Da er det verdt å sjekke IKT-kontoret i 4 etasje, de kan mest sannsynlig hjelpe.",
+    "kategori": "Teknisk"
+  },
+  {
+    "sporsmal": "Hva skjer hvis jeg kommer for sent eller må være borte fra en time?",
+    "svar": "Hvis du er for sen til en time eller er borte må du melde fraværet ditt på Visma. Du får fravær om du melder fraværet på visma og anmerkning om du kommer litt forsent eller om du ikke melder fravær. ",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Er det mye prøver?",
+    "svar": "Ikke så mange skriftlige prøver, men alt arbeid teller på karakteren.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Andre utfordringer (ikke digitale) eller spørsmål?",
+    "svar": "I 2 etasje finner du «Ekskursjonen», og de kan som oftest hjelpe med det meste.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hva gjør jeg hvis skjermen fryser?",
+    "svar": " Hold inne av/på-knappen til den slår seg av Start på nytt.",
+    "kategori": "IT Hjelp"
+  },
+  {
+    "sporsmal": "Hvor lagrer jeg filene mine?",
+    "svar": "Bruk OneDrive eller Teams-mapper for skolearbeid. lagre viktige filer på lokalt maskinen.",
+    "kategori": "hjelp med filer"
+  },
+  {
+    "sporsmal": "Sender dere til hele Norge?",
+    "svar": "Ja",
+    "kategori": "Posten"
+  },
+  {
+    "sporsmal": "Hva gjør jeg hvis jeg sliter med fagene eller trenger ekstra hjelp",
+    "svar": "Hvis du sliter med fagene kan du enten spørre læreren om hjelp, eller så kan du gå på noe som heter studietid som skjer fra mandag til onsdag nesten hver uke på fjerde etasje det er også viktig at du går inn på disse nettsidene for å holde styr på studietid. studie.asvg.no og studietid.asvg.no.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvordan får jeg tilgang til eldre prøver?",
+    "svar": "Spør læreren",
+    "kategori": "prøve"
+  },
+  {
+    "sporsmal": "Hva skjer hvis jeg ikke forstår oppgavene?",
+    "svar": "Da kan du alltid spørre læreren eller en medelev om hjelp., men de fleste er gøye.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvem er Øyvind?",
+    "svar": " Øyvind er en lærer ",
+    "kategori": "FAQ til VG1 elever"
+  },
+  {
+    "sporsmal": "Hvordan melder jeg fravær?",
+    "svar": "Meld fra fravær på appen Visma med dokumentasjon på hvorfor du er vekke",
+    "kategori": "Fravær"
+  },
+  {
+    "sporsmal": "Hvor ser man ukeplanen? ",
+    "svar": "Ukeplanen ligger i Visma InSchool. Der må man logge seg inn med din iskule.no bruker. Du kan finne lenken til Visma InSchool fra Amalie Skram sin side.",
+    "kategori": "Ukeplan"
+  },
+  {
+    "sporsmal": "Hvilke regler gjelder for bruk av mobil og PC i undervisningen?",
+    "svar": "Det er ikke lov til å bruke utstyret ditt til underholdning i timene, men utenom det så er stort sett alt lov.",
+    "kategori": "utstyr"
+  },
+  {
+    "sporsmal": "Hvordan legger man inn fravær? ",
+    "svar": "Alt fravær finner man i Visma InSchool. Der får du oversikt over fraværet ditt, og muligheten til å legge inn fremtidig fravær. ",
+    "kategori": "Fravær"
+  },
+  {
+    "sporsmal": "Kan jeg bruke egen PC på skolen?",
+    "svar": "Ja, men du må følge skolens retningslinjer og installere de programmene lærerne krever.",
+    "kategori": "generelt"
+  },
+  {
+    "sporsmal": "Er chat GPT lov?",
+    "svar": "læreren har overaskende ikke noe imot at vi bruker chat gpt så lenge du forstår hva du bruker og du kan forklare hva den har gjort.",
+    "kategori": "programmering"
+  },
+  {
+    "sporsmal": "Hvorfor er det ikke vasker i klasserommet?",
+    "svar": "Det er vasker i klasserom, men de ligger i et av skapene. Hvis det ikke er skap i klasserommet er det ikke vasker der fordi det rommet var ikke designet som et vanlig klasserom.",
+    "kategori": ""
+  },
+  {
+    "sporsmal": "Hvor ser man karakterene / vurderingene sine? ",
+    "svar": "Disse finner man også i Visma InSchool, under kategorien «Vurderinger». Her får du oversikt over karakterene fra de forrige halvårene + noen underveis vurderinger i dette halvåret.",
+    "kategori": "Karakterer / vurderinger"
+  },
+  {
+    "sporsmal": "Hvor finner jeg oppgaver og innleveringer?",
+    "svar": " De fleste lærere bruker læringsplattformen, som Teams eller Itslearning. Sjekk der først.",
+    "kategori": "skole start"
+  },
+  {
+    "sporsmal": "hvordan får man karakterer",
+    "svar": "læreren gir de ",
+    "kategori": "karakterer"
+  },
+  {
+    "sporsmal": "Hvem kan jeg kontakte for hjelp med tekniske problemer?",
+    "svar": " Skolens IT-avdeling har et brukerstøttepunkt. Spør læreren din hvor du finner dem.",
+    "kategori": "it hjelp"
+  },
+  {
+    "sporsmal": "Hvordan funker studietid? ",
+    "svar": "Studietid er et slags «leksehjelp», hvor man kan sitte igjen etter skolen og jobbe med fagene. Du kan bruke hele bygget, og noen lærere kommer til å være tilgjengelige der. På slutten av skoleåret kan du også søke om å fjerne fravær fra vitnemålet med antall timer du har vært på studietid.",
+    "kategori": "Studietid"
+  },
+  {
+    "sporsmal": "Hvordan unngå å kjede seg i timene?",
+    "svar": "Prøv å ikke følg med på klokken er når du er i timen og spør/gi noen forslag til læreren om de kan lære på en mer spennende og interessant måte.",
+    "kategori": "Kjedsomhet"
+  },
+  {
+    "sporsmal": "Hvordan får jeg Teams på mobilen?",
+    "svar": " Last ned Teams-appen og logg inn med skolebrukeren din.",
+    "kategori": "Teams"
+  },
+  {
+    "sporsmal": " Hvor tid kan jeg besøke skolen? ",
+    "svar": "Skolen er åpen for elever fra kl 06:00 til 21:00",
+    "kategori": "skole"
+  },
+  {
+    "sporsmal": "Hva kan jeg gjøre hvis det er mye kaos eller bråk i klasserommet?",
+    "svar": " Du kan spørre læreren om å sitte i et grupperom (det finnes flere rundt om i bygget). Du kan også ta det opp med læreren eller klassen, slik at dere sammen finner en løsning.",
+    "kategori": "informasjon"
+  },
+  {
+    "sporsmal": "Er det mye mer lekser og prøver enn på ungdomsskolen?",
+    "svar": "Ja",
+    "kategori": "Lekser"
+  },
+  {
+    "sporsmal": "Hva er noen gode måter å forberede for prøve?",
+    "svar": "Gå over lærings/kompetansemål og sjekk om du kan mesteparten utenatt",
+    "kategori": "Prøve"
+  },
+  {
+    "sporsmal": "hva gjør jeg vis pcen min er satt til tysk?",
+    "svar": "spør viggo om hjelp",
+    "kategori": "pc"
+  },
+  {
+    "sporsmal": "Hva skal jeg gjøre om jeg har problemer med datamaskinen/apper?",
+    "svar": "Gå til ITK i 4. etasje, søk opp problemet på nett og/eller spør en medelev",
+    "kategori": "IT-hjelp"
+  },
+  {
+    "sporsmal": "Hvilken type datamaskin burde jeg få?",
+    "svar": "Windows (Enklest å bruke) helst velge pc-en med mest lagringsplass",
+    "kategori": "IT-hjelp"
+  },
+  {
+    "sporsmal": "Må jeg kjøpe programvare selv, f.eks. Adobe-pakken?",
+    "svar": "Som oftest trenger du aldri å kjøpe programvare selv sånn som adobe pakken",
+    "kategori": "Programvare"
+  },
+  {
+    "sporsmal": "Må jeg vite hvordan å kode eller ta bilder/redigere før skolen begynner?",
+    "svar": "Nei. Du trenger ikke å vite hvordan å kode eller ulike medie ferdigheter før skolen begynner",
+    "kategori": "Kompetanse"
+  },
+  {
+    "sporsmal": "Hva står IT for?",
+    "svar": "internett trorjeg",
+    "kategori": "IT"
+  },
+  {
+    "sporsmal": "Hvilke yrker kan jeg få fra IM?",
+    "svar": "IT-driftsteknikker, IT-utvikler, Medie designer, Innholdsprodusent Se utdanning.no for mer eksempler",
+    "kategori": "yrke"
+  },
+  {
+    "sporsmal": "Hvor mye koding er det på IM?",
+    "svar": "En god del, spesielt i programmeringsfaget. Vanlige språk inkluderer HTML, CSS, JavaScript og litt SQL.",
+    "kategori": "fag"
+  }
+]
